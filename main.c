@@ -14,12 +14,13 @@ void main() {
 	int inputNum;
 
 	printf("Enter operation number: ");
-	scanf_s("%1o", &inputNum);
+	scanf_s("%d", &inputNum);
 
 	switch (inputNum)
 	{
 	case 1:
 		add();
+		break;
 	}
 
 }
@@ -46,4 +47,3 @@ void add() {
 	printf("%lf + %lf = %lf\n", num1, num2, result);
 }
 
-lsadhjflkjasdlfa
